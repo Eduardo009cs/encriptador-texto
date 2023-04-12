@@ -14,14 +14,14 @@
             <textarea name="text" cols="40" rows="25" placeholder="Ingrese el texto aquí"></textarea>
             <label> <i class="bi bi-exclamation-circle-fill"></i>Solo letras minúsculas y sin acentos</label>
             <div class="buttons">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
         <div class="texto-modificado">
-            <img src="images/muneco.png" alt="Muñeco">
-            <label class="text-1">Ningún mensaje fue encontrado</label>
-            <label class="text-2">Ingresa el texto que desees encriptar o desencriptar</label>
+            <img id="img-muneco" src="images/muneco.png" alt="Muñeco">
+            <label id="text-1" class="text-1">Ningún mensaje fue encontrado</label>
+            <label id="text-2" class="text-2">Ingresa el texto que desees encriptar o desencriptar</label>
         </div>
     </div>
     <footer>
@@ -30,4 +30,5 @@
         <a rel="stylesheet" href="https://github.com/Eduardo009cs/"><i class="bi bi-github" style="color: #E1EDF1;"></i></a>
     </footer>
 </body>
+<script src="js/index.js"></script>
 </html>
