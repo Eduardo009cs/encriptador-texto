@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
     <div class="container">
         <img class="logo" src="/images/logo-alura.png" alt="Logo de alura">
         <div class="texto">
-            <textarea name="text" cols="40" rows="30" placeholder="Ingrese el texto aquí"></textarea>
-            <label> !Solo letras minusculas</label>
-            <button class="btn-encriptar">Encriptar</button>
-            <button class="btn-desencriptar">Desencriptar</button>
+            <textarea name="text" cols="40" rows="25" placeholder="Ingrese el texto aquí"></textarea>
+            <label> <i class="bi bi-exclamation-circle-fill"></i>Solo letras minúsculas y sin acentos</label>
+            <div class="buttons">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
         </div>
         <div class="texto-modificado">
             <img src="images/muneco.png" alt="Muñeco">
-            <label>Ningún mensaje fue encontrado</label>
-            <label>Ingresa el texto que desees encriptar o desencriptar</label>
+            <label class="text-1">Ningún mensaje fue encontrado</label>
+            <label class="text-2">Ingresa el texto que desees encriptar o desencriptar</label>
         </div>
     </div>
+    <footer>
+        <p>Realizado por Eduardo Cuevas Solorza - Alura Challenge Desafío 1 </p>
+        <a rel="stylesheet" href="https://www.linkedin.com/in/eduardo-cuevas-solorza/"><i class="bi bi-linkedin" style="color: #E1EDF1;"></i></a>
+        <a rel="stylesheet" href="https://github.com/Eduardo009cs/"><i class="bi bi-github" style="color: #E1EDF1;"></i></a>
+    </footer>
 </body>
 </html>
