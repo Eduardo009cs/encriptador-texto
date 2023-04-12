@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.logo{
+    align-self: baseline;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    width: 100%;
+    padding: 0;
+}
+textarea:focus {
+    border: none;
+    outline: none;
+}
+.texto {
+    height: 80vh;
+    border: 1px solid;
+}
+.texto label {
+    width: 100%;
+}
+.texto-modificado{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-modificado img{
+    width: 336px;
+    height: 304px;
+}
