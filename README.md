@@ -1,4 +1,5 @@
 # encriptador-texto
-Alura Grupo 5  
-Challenge: Desafio 1 
-Encriptador/Desencriptador de textos
+ONE Grupo 5  
+- Challenge: Desafio 1 
+- Tema: Encriptador/Desencriptador de textos
+- Página: https://eduardo009cs.github.io/encriptador-texto/ 
