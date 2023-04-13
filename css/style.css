@@ -29,14 +29,15 @@ textarea{
     padding-top: 4rem;
     background-color: #031A24;
 }
+
 textarea::placeholder{
     color: #E1EDF1;
     font-size: 20px;
-
 }
 textarea:focus {
     border: none;
     outline: none;
+    
 }
 .texto {
     height: 90vh;
@@ -126,6 +127,26 @@ i {
     font-size: 1rem;
     text-align: center;
 }
+.text-2::selection{
+    background-color: #09688E;
+}
+#btn-copiar{
+    border:  2px solid #031A24;
+    width: 45%;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: #E1EDF1;
+    color: #031A24;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#btn-copiar:hover {
+    background-color: #031A24;
+    color: #E1EDF1;
+    box-shadow:  1px  1px  20px  2px   #031A24;
+}
+
 
 footer {
     display: flex;

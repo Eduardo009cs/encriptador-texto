@@ -11,7 +11,7 @@
     <div class="container">
         <img class="logo" src="/images/logo-alura.png" alt="Logo de alura">
         <div class="texto">
-            <textarea name="text" cols="40" rows="25" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea oninput="validar()" name="text" cols="40" rows="25" placeholder="Ingrese el texto aquí"></textarea>
             <label> <i class="bi bi-exclamation-circle-fill"></i>Solo letras minúsculas y sin acentos</label>
             <div class="buttons">
                 <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
@@ -22,6 +22,7 @@
             <img id="img-muneco" src="images/muneco.png" alt="Muñeco">
             <label id="text-1" class="text-1">Ningún mensaje fue encontrado</label>
             <label id="text-2" class="text-2">Ingresa el texto que desees encriptar o desencriptar</label>
+            <button id="btn-copiar" onclick="copiar()">Copiar</button>
         </div>
     </div>
     <footer>
